@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Barbosa</string>
+    <string-array name="pais">
+        <item>france</item>
+        <item>USA</item>
+        <item>England</item>
+    </string-array>
+</resources>

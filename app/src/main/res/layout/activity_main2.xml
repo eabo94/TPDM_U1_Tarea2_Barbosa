@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#451B4E"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:background="@color/colorAccent"
+
+
+        android:text="                     Francia
+                     Paris"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30dp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:textSize="30dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="                     USA
+                     New York" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="                     INDIA
+                     Mumbai"
+        android:textSize="30dp"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="                   INGLATERRA
+                   Londres"
+        android:textSize="30dp"
+        />
+
+
+</LinearLayout>

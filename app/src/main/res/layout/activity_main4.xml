@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/koko"
+    tools:context=".Main4Activity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:src="@drawable/bann"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bannd" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGENIOUS WAR"
+        android:textSize="50dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO WORK SMARTER"
+        android:textSize="40dp"
+        android:layout_marginTop="390dp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOT HARDER"
+        android:textSize="50dp"
+        android:layout_marginTop="420dp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
